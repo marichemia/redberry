@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Onboarding</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <section class="page active">
+        <div class="first-page-column-1 column-1">
+            <div class="heading">
+                <img src="Vector.png" alt="chess symbol" width="14.67" height="18.33">
+                <img src="Redberry Knight Cup.png" alt="Redberry Knight Cup" class="heading-text">
+            </div>
+            <div class="image-container">
+                <img src="Landing page- scrolling photo.png" alt="chess board">
+            </div>
+        </div>
+
+        <div class="first-page-column-2 column-2">
+            <div class="big-text text-1">Chess Says</div>
+            <div class="text-2">A lot About</div>
+            <div class="big-text text-3">Who we are</div>
+            <button type="button" class="get-started">
+                <div class="button-content next-button">
+                    Get Started
+                    <img src="arrow-right-circle.png" alt="arrow pointing right" width="24" height="24">
+                </div>
+            </button>
+        </div>
+    </section>
+    <section class="page none">
+        <div class="page-2-column-1 column-1">
+            <div class="heading">
+                <img src="Vector.png" alt="chess symbol" width="14.67" height="18.33">
+                <img src="Redberry Knight Cup.png" alt="Redberry Knight Cup" class="heading-text">
+            </div>
+            <div class="background-img">
+                <p class="column-1-text">"When you see a good move,</p>
+                <p class="column-1-text">look for a better one."</p>
+                <p id="emanuel-lasker">-emanuel lasker</p>
+            </div>
+        </div>
+        <div class="column-2">
+            <div class="form-header">
+                Start Creating Your Account
+            </div>
+            <div class="form-stages">
+                <img src="Frame 12.png">
+                <div class="stage-names">
+                    <p>Personal information</p>
+                    <p>Chess experience</p>
+                </div>
+            </div>
+            <div class="form-section-header">
+                <h4>Personal information</h4>
+                <p>This Is Basic Informaton Fields</p>
+            </div>
+            <form>
+                <input id="name" type="text" placeholder="Name" minlength="2" required>
+                <input id="mail" type="text" placeholder="Email address" required>
+                <input id="number" type="text" placeholder="Phone number" required>
+                <input id="date" type="text" placeholder="Date of birth" required>
+                <div class="back-next-btns">
+                    <button type="button" id="back" class="back-button">Back</button>
+                    <button type="button" id="next" class="next-button" id="1page-next-button">
+                        Next
+                        <img src="arrow-right-circle.png">
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="page none">
+        <div class="page-2-column-1 column-1">
+            <div class="heading">
+                <img src="Vector.png" alt="chess symbol" width="14.67" height="18.33">
+                <img src="Redberry Knight Cup.png" alt="Redberry Knight Cup" class="heading-text">
+            </div>
+            <div class="background-img-exp">
+                <p class="column-1-text">“Many have become chess masters;</p>
+                <p class="column-1-text">no one has become the master of chess.”</p>
+                <p id="siegbert">-Siegbert Tarrasch</p>
+            </div>
+        </div>
+        <div class="column-2">
+            <div class="form-header">
+                First step is Done, Continue To Finish Onboarding
+            </div>
+            <div class="form-stages">
+                <img src="Frame.png">
+                <div class="stage-names">
+                    <p>Personal information</p>
+                    <p>Chess experience</p>
+                </div>
+            </div>
+            <div class="form-section-header">
+                <h4>Chess experience</h4>
+                <p>This Is Basic Informaton Fields</p>
+            </div>
+            <form>
+                <div class="select-group">
+                    <div id="experience">
+                        <button class="select-button" id="select-button"><span id="select-button-text"
+                                class="button-text">Level of
+                                knowledge</span><span class="asterisk">*</span>
+                        </button>
+                        <div id="options" class="none">
+                            <label class="select-item" for="select-beginner">Beginner</label>
+                            <input class="option" id="select-beginner" type="radio" name="level" value="beginner">
+
+                            <label class="select-item" for="select-intermediate">Intermediate</label>
+                            <input class="option" id="select-intermediate" type="radio" name="level"
+                                value="intermediate">
+
+                            <label class="select-item" for="select-professional">Professional</label>
+                            <input class="option" id="select-professional" type="radio" name="level"
+                                value="professional">
+                        </div>
+                    </div>
+                    <div id="player">
+                        <button class="select-button" id="player-button">
+                            <span class="button-text" id="player-button-text">Choose your character</span>
+                            <span class="player-asterisk">*</span>
+                        </button>
+                        <div id="player-options" class="none">
+                            <label class="select-player" for="select-nona">Nona Gaprindashvili</label>
+                            <input class="option player-list" id="select-nona" type="radio" name="player"
+                                value="Nona Gaprindashvili">
+
+                            <label class="select-player" for="select-mikhail">Mikhail Tal</label>
+                            <input class="option player-list" id="select-mikhail" type="radio" name="player"
+                                value="Mikhail Tal">
+
+                            <label class="select-player" for="select-bobby">Bobby Fisher</label>
+                            <input class="option player-list" id="select-bobby" type="radio" name="player"
+                                value="Bobby Fisher">
+
+                            <label class="select-player" for="select-magnus">Magnus Carlsen</label>
+                            <input class="option player-list" id="select-magnus" type="radio" name="player"
+                                value="Magnus Carlsen">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="radio-group">
+                    <p>Have you participated in the Redberry Championship?<span class="asterisk">*</span>
+                    </p>
+
+                    <div class="radio-button">
+                        <label for="yes" class="yes-text">Yes</label>
+                        <input class="participation" id="yes" type="radio" name="participation" value="true">
+                    </div>
+
+                    <div class="radio-button">
+                        <label for="no" class="no-text">No</label>
+                        <input class="participation" id="no" type="radio" name="participation" value="false">
+                    </div>
+
+
+
+                </div>
+
+                <div class="back-next-btns">
+                    <button type="button" id="back" class="back-button">Back</button>
+                    <button type="button" id="done" class="next-button">
+                        Done
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="page none">
+        <div class="column-1">
+            <div class="heading">
+                <img src="Vector.png" alt="chess symbol" width="14.67" height="18.33">
+                <img src="Redberry Knight Cup.png" alt="Redberry Knight Cup" class="heading-text">
+            </div>
+            <div class="image-container">
+                <img src="lst.png" alt="chess board">
+            </div>
+        </div>
+
+        <div class="column-2" id="completed">
+            <img src="Onboarding completed!.png" width="402" height="260">
+        </div>
+        </button>
+        </div>
+    </section>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
