@@ -583,3 +583,9 @@ form input {
 .completed {
     background-color: white;
 }
+
+#completed img {
+    position: absolute;
+    top: 350px;
+    left: 1200px;
+}
